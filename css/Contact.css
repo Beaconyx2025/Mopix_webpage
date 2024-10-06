@@ -1,0 +1,46 @@
+.main_section_contact {
+  width: 79%;
+  margin: 0;
+  padding: 20px;
+  background-image: url(../assets/Hand.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: none;
+}
+
+.contact-table table {
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+}
+
+.contact-table th,
+.contact-table td {
+  padding: 20px;
+  border: 1px solid #dddddd;
+  font-size: 20px;
+  text-align: center;
+  color: aqua;
+}
+
+.contact-table th {
+  background-color: #5fefef;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+}
+
+.intro-header {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+  color: rgb(247, 241, 241);
+}

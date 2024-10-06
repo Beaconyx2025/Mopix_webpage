@@ -1,0 +1,24 @@
+:root {
+  --background-black: #000;
+  --text-white: #fff;
+  --Secondary-Color: Gray (#333333);
+  --Accent-Color: Cyan (#00bfff);
+  --grid-item-width: 400px; /* Width of each grid item */
+  --grid-item-height: 260px; /* Height of each grid item */
+}
+
+/*.typography-title {
+    display: flex;
+}*/
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
